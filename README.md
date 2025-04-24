@@ -21,11 +21,11 @@ uvicorn main:app --reload
 ```
 3. Run the application in cloud background:
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000
+uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 4. Run the application in cloud background:
 ```bash
-nohup uvicorn app:app --host 0.0.0.0 --port 8000 &
+nohup uvicorn main:app --host 0.0.0.0 --port 8000 &
 ```
 The server will start at `http://localhost:8000`
 
