@@ -1,0 +1,11 @@
+[project]
+name = "grabloc"
+version = "0.1.0"
+description = "Returns a response of details from search results of google maps."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.68.0",
+    "requests>=2.26.0",
+    "uvicorn>=0.15.0",
+]
