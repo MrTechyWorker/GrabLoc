@@ -12,7 +12,7 @@ This FastAPI application provides an API endpoint to search for places using Goo
 
 1. Install the required dependencies:
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 2. Run the application:
